@@ -1,21 +1,11 @@
 'use strict'
 
-const $ = document.querySelector.bind(document);
+onload = function(){
+    alert('Welcome To The Menu');
+} 
 
 
-function createNewTodo(){
-   var d = document.createElement('div'); // create div, d
-   $('.items').appendChild( d )
-   d.innerHTML = $('.newtodo').value;
-   $('.newtodo').value = '';
-   // add onclick functionality to d
-   d.onclick = function(){
-      d.className = 'done';
-    };
+function Order(){
+   alert('Your meal is coming right up!');
 }
-onload=function (){
-    this.alert("hello");
-}
-function hello(){
-    alert("hello!");
-}
+ 
