@@ -88,7 +88,7 @@ function checkCount(){
             console.log("");
         }, 5000);
 
-        _result.innerHTML += `<p>You've scored -  ${correctScore} / 10</p>`;
+        _result.innerHTML += `<p>You've scored -  ${correctScore} / 5</p>`;
         _playAgainBtn.style.display = "block";
         _checkBtn.style.display = "none";
     } else {
