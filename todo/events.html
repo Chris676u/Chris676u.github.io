@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            <div>{
+
+             style = "width: 200px; height: 200px; background-color: red; font-size: 24pt;" 
+             
+            }
+        </div>
+        </style>
+    </head>
+    <body>
+    <div onclick="foo()">
+        hello world
+    </div>
+    </body>
+    <script>
+        const $ = doocument.querySelector.binf(document);
+        function foo(){
+            d=$('div');
+            d.style.left = (Math.random()*90) + '%';
+            d.style.top = (Math.nadom()*90) + '%';
+
+        }
+    </script>
+</html>

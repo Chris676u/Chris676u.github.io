@@ -13,3 +13,9 @@ function createNewTodo(){
       d.className = 'done';
     };
 }
+onload=function (){
+    this.alert("hello");
+}
+function hello(){
+    alert("hello!");
+}
