@@ -60,7 +60,10 @@ body {
         align-items:center;
 
     }
-    @media screen and (min-width: 800px) {
+    @media all and (max-width: 500px) {
+        body{
+            color: red
+        }
         img { max-width: 500px; max-height: 300px; }
         table { width: 800px; 
         }
